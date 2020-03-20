@@ -18,4 +18,4 @@ var destrivelyRemoveFirstKitten = function(){
   return kitten.shift()
 }
 
-console.log(destrivelyRemoveLastKitten())
+// console.log(destrivelyRemoveLastKitten())
