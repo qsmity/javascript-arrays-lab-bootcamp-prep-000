@@ -28,4 +28,4 @@ var prependKitten = function(name){
   return kittens
 }
 // console.log(destrivelyRemoveLastKitten())
-console.log(prependKitten("harvey"))
+// console.log(prependKitten("harvey"))
