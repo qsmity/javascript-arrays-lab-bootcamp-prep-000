@@ -27,5 +27,12 @@ var prependKitten = function(name){
   const kittens2 = [name, ...kittens]
   return kittens2
 }
+
+var removeLastKitten = function(){
+  const kittens3 = kittens.slice(0, kittens.length-1)
+  return kittens3
+}
+
+
 // console.log(destrivelyRemoveLastKitten())
 // console.log(prependKitten("harvey"))
