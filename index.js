@@ -6,6 +6,6 @@ var destructivelyAppendKitten = function(name){
 }
 
 var destructivelyPrependKitten = function(name){
-  const kit = kitten.unshift(name)
-  return kit
+  kittens.unshift(name)
+  
 }
