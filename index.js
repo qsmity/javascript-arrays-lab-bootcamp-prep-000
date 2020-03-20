@@ -9,3 +9,7 @@ var destructivelyPrependKitten = function(name){
   kittens.unshift(name)
   
 }
+
+var destrivelyRemoveLastKitten = function(name){
+  
+}
