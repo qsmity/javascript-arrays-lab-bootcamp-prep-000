@@ -24,8 +24,8 @@ var appendKitten = function(name){
 }
 
 var prependKitten = function(name){
-  kittens = [name, ...kittens]
-  return kittens
+  const kittens2 = [name, ...kittens]
+  return kittens2
 }
 // console.log(destrivelyRemoveLastKitten())
 // console.log(prependKitten("harvey"))
