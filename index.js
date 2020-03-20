@@ -10,8 +10,8 @@ var destructivelyPrependKitten = function(name){
   
 }
 
-var destrivelyRemoveLastKitten = function(name){
- return  kittens.shift(name)
+var destrivelyRemoveLastKitten = function(){
+ return  kittens.shift()
 }
 
-console.log(destrivelyRemoveLastKitten("lex"))
+console.log(destrivelyRemoveLastKitten())
