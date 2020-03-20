@@ -11,7 +11,11 @@ var destructivelyPrependKitten = function(name){
 }
 
 var destrivelyRemoveLastKitten = function(){
- return  kittens.pop()
+ return kittens.pop()
+}
+
+var destrivelyRemoveFirstKitten = function(){
+  return kitten.shift()
 }
 
 console.log(destrivelyRemoveLastKitten())
