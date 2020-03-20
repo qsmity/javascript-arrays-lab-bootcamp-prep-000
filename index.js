@@ -10,12 +10,12 @@ var destructivelyPrependKitten = function(name){
   
 }
 
-var destrivelyRemoveLastKitten = function(){
- const kit = kittens.pop()
- return kit
+var destructivelyRemoveLastKitten = function(){
+ kittens.pop()
+ 
 }
 
-var destrivelyRemoveFirstKitten = function(){
+var destructivelyRemoveFirstKitten = function(){
   return kittens.shift()
 }
 
