@@ -11,5 +11,7 @@ var destructivelyPrependKitten = function(name){
 }
 
 var destrivelyRemoveLastKitten = function(name){
-  
+  kittens.shift(name)
 }
+
+console.log(destrivelyRemoveLastKitten("lex"))
