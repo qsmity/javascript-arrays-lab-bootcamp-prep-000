@@ -33,6 +33,11 @@ var removeLastKitten = function(){
   return kittens3
 }
 
+var removeFirstKitten = function(){
+  const kitten4 = kittens.slice(1)
+  return kitten4
+}
+
 
 // console.log(destrivelyRemoveLastKitten())
 // console.log(prependKitten("harvey"))
